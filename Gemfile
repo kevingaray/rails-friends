@@ -18,11 +18,11 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
 
 group :development do
   gem 'web-console', '>= 3.3.0'
-  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
 
 # added production 
