@@ -5,8 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-# gem 'rails', '~> 6.1.5.1'
-gem 'rails', '5.1.6'
+gem 'rails', '~> 6.1.5.1'
 # sending to development
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
@@ -19,16 +18,18 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+  # gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  gem 'sqlite3'
 end
 
 # added production 
 group :production do
-  gem 'pg', '~> 1.3', '>= 1.3.5'
+  # gem 'pg', '~> 1.3', '>= 1.3.5'
+  gem 'pg'
   # gem 'rails_12factor', '0.0.2'
 end 
 
