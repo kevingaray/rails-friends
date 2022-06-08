@@ -1,5 +1,6 @@
 Rails.application.configure do
   # Verifies that versions and hashed value of the package contents in the project's package.json
+  # ojo ojito cambiar a true
   config.webpacker.check_yarn_integrity = true
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -56,4 +57,5 @@ Rails.application.configure do
 
   # device install
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
 end
