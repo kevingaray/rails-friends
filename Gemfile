@@ -40,3 +40,4 @@ gem 'rspec-rails'
 gem 'factory_girl_rails'
 # added
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'pg', '~> 1.3', '>= 1.3.5'
