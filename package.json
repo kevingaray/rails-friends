@@ -3,5 +3,8 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^5.4.3"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
   }
 }
